@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+homecol3 {
+    position: absolute;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.container .profile {
+    z-index: 1;
+}
+.navbar-expand-lg {
+    z-index: 1200 !important;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#vertical-line {
+    height: 100%;
+}
+#Xena-Profile {
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+button {
+    border-radius: 50px;
+    padding: 10px;
+}
+
+h2 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+#service-icon{
+    font-size: 50px;
+}
+
+@media all and (max-width:769px) {
+.main-image {
+    position: relative !important;
+}   
+}
+
+/* table, th, td {
+    border:1px solid black;
+  } */
+
+#namelanding {
+    padding-top: 50%;
+    padding-bottom: 80px;
+}
+
+i {
+    font-size: 50px;
+    
+}
