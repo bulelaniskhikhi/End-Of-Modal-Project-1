@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+
+html,body{
+    overflow-x: hidden;
+}
 homecol3 {
     position: absolute;
     overflow-y: scroll;
@@ -15,8 +19,8 @@ homecol3 {
 }
 .navbar-expand-lg {
     z-index: 1200 !important;
-    margin-top: 50px;
-    border-radius: 20px;
+    margin-top: 30px;
+    border-radius: 50px;
     padding: 10px;
 }
 
@@ -58,6 +62,32 @@ h2 {
 }
 
 i {
-    font-size: 50px;
-    
+    font-size: 50px;    
+}
+
+#navbar {
+    background: black;
+    opacity: 0.5;
+    width: 90%;
+}
+
+.progressbar {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+button {
+    border: none;
+}
+button :hover {
+    color: white;
+}
+
+#links {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 30px;
 }
